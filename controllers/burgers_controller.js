@@ -13,7 +13,7 @@ router.get("/", function(req, res) {
   });
 });
 router.post("/api/burgers", function(req, res) {
-  .create([
+  burger.create([
     
   ], [
     req.body.name, req.body.sleepy

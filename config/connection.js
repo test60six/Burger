@@ -13,3 +13,5 @@ connection.connect(function(err){
 	
 		console.log("connect as id " + connection.threadId);
 });
+
+module.exports=("server.js");
